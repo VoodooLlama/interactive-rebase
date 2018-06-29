@@ -1,3 +1,5 @@
 function someCode() {
-    return 'hello world!';
+    const value = 'hello world!';
+
+    return value;
 }
