@@ -1,5 +1,5 @@
-function someCode() {
-    const value = 'hello world!';
+function someCode(name = 'world') {
+    const hello = 'hello';
 
-    return value;
+    return `${ hello } ${ name }!`;
 }
